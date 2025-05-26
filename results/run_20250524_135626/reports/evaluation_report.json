@@ -1,0 +1,29 @@
+{
+    "models": {
+        "random_forest": {
+            "accuracy": 0.6,
+            "precision": 0.63,
+            "recall": 0.6,
+            "f1": 0.5891402714932127,
+            "roc_auc": 0.5267857142857143
+        },
+        "xgboost": {
+            "accuracy": 0.5666666666666667,
+            "precision": 0.5688888888888889,
+            "recall": 0.5666666666666667,
+            "f1": 0.5671486837226547,
+            "roc_auc": 0.5625
+        },
+        "neural_network": {
+            "accuracy": 0.5333333333333333,
+            "precision": 0.5533333333333333,
+            "recall": 0.5333333333333333,
+            "f1": 0.5206636500754147,
+            "roc_auc": 0.5892857142857142
+        }
+    },
+    "best_model": {
+        "name": "random_forest",
+        "score": 0.6
+    }
+}
